@@ -107,10 +107,10 @@
     .footer-bg{
         overflow-x: hidden;
     }
-    .footer-txt{
-        display: none;
-    }
     .footer-container{
         justify-content: center;
+    }
+    .f7{
+        transform: translateX(140px);
     }
   }
