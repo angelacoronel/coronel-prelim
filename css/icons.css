@@ -1,0 +1,234 @@
+.r1 .icon{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    opacity: 70%;
+    transition: opacity 0.5s ease-in-out 0.1s, transform 0.5s ease-in-out 0.1s;   
+}
+.r1:hover .icon{
+    opacity: 100%;
+}
+.r1-circle{
+    position: absolute;
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.r1-sm-circle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-color: gold;
+    transition: all 1.3s ease-in-out 0.3s;
+}
+.r1:hover .r1-sm-circle{
+    background-color: rgb(117, 117, 117);
+}
+.peso-line{
+    position: absolute;
+    height: 1px;
+    width: 50px;
+    background-color:000;
+    height: 6px;
+    transform: translate(0px, -10px) rotate(0);
+    transition: all 1s ease-in-out 0.3s;
+}
+.r1:hover .peso-line{
+    width: 60px;
+    transform: translate(0px, 0px) rotate(90deg);
+}
+.peso{
+    position: absolute;
+    color: #000; 
+    font-size: 70px;
+    font-weight: bolder;
+    height: 130px;
+    width: 130px;
+    text-align: center;
+    transform: translate(0px, 23px) scale(1);
+    transition: 0.7s ease-in-out 0.3s, transform 1s ease-in-out 0.3s;
+}
+.r1:hover .peso{
+    opacity: 0%;
+    transform: translate(0px, 23px) scale(0.5);
+}
+.dollar{
+    position: absolute;
+    color: #000; 
+    font-size: 70px;
+    font-weight: bolder;
+    height: 130px;
+    width: 130px;
+    text-align: center;
+    opacity: 0%;
+    transform: translate(0px, 23px)  scale(0.5);
+    transition: 0.7s ease-in-out 0.3s, transform 1s ease-in-out 0.3s;
+}
+.r1:hover .dollar{
+    opacity: 100%;
+    transform: translate(0px, 23px) scale(1);
+}
+
+.r2 .icon{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    opacity: 70%;
+    transition: opacity 0.5s ease-in-out 0.1s, transform 0.5s ease-in-out 0.1s;   
+}
+
+.r2:hover .icon{
+    opacity: 100%;
+}
+.r2-circle{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    border: 5px solid white;
+    
+}
+.r2-sm-circle{
+    position: absolute;
+    height: 80px;
+    width: 75px;
+    border-radius: 50%;
+    background-color: #f85b00;
+    transform: translate(0px, 50px);
+    transition: all 0.5s ease-in-out 0.3s;
+}
+.r2:hover .r2-sm-circle{
+    box-shadow: 0px 0px 30px 5px #cc7543;
+    transform: translate(0px, 60px);
+}
+.r2-sm-circle2{
+    position: absolute;
+    height: 60px;
+    width: 35px;
+    border-radius: 30%;
+    background-color: #f85b00;
+    transform: translate(0px, 85px);
+    transition: all 0.5s ease-in-out 0.3s;
+}
+.r2:hover .r2-sm-circle2{
+    transform: translate(0px, 95px);
+}
+.r2-square{
+    position: absolute;
+    height: 5px;
+    width: 20px;
+    background-color: #f85b00;
+    transform: translate(0px, 150px);
+    transition: all 0.5s ease-in-out 0.3s;
+}
+.r2:hover .r2-square{
+    transform: translate(0px, 160px);
+}
+.r2-square2{
+    position: absolute;
+    height: 5px;
+    width: 20px;
+    background-color: #f85b00;
+    transform: translate(0px, 160px);
+    transition: all 0.5s ease-in-out 0.3s;
+}
+.r2:hover .r2-square2{
+    transform: translate(0px, 170px);
+}
+.r3 .icon{
+    position: relative;
+    display: flex;
+    opacity: 70%;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    transition: opacity 0.5s ease-in-out 0.1s, transform 0.5s ease-in-out 0.1s;   
+}
+
+.r3:hover .icon{
+    opacity: 100%;
+}
+
+.r3-circle{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.r3-box{
+    position: absolute;
+    border-top: 90px solid #0f770f;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    height: 0px;
+    width: 80px;
+    transform: translate(0px, 10px);
+}
+
+.r3-box2{
+    position: absolute;
+    background-color: #0f770f;
+    border-radius: 10%;
+    height: 10px;
+    width: 100px;
+    transform: translate(0px, -45px) rotate(0deg);
+    transition: transform 0.5s ease-in-out 0.1s, background-color 1s ease-in-out 0.1s;
+}
+.r3:hover .r3-box2 {
+    transform: translate(0px, -60px) rotate(-10deg);
+}
+.r3-box3{
+    position: absolute;
+    border: 5px solid #0f770f;
+    border-radius: 10%;
+    height: 10px;
+    width: 40px;
+    transform: translate(0px, -53px);
+    transition: transform 0.5s ease-in-out 0.1s, background-color 1s ease-in-out 0.1s;
+}
+.r3:hover .r3-box3 {
+    transform: translate(0px, -68px) rotate(-10deg);
+}
+.cross{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    height: 200px; 
+    width:150px;    
+    opacity: 0%;
+    transition: opacity 0.5s linear 0.4s;
+}
+.r3:hover .cross {
+    opacity: 50%;
+}
+.x1{
+    position: absolute;
+    height: 15px;
+    width: 150px;
+    background-color: red;
+    transform: translate(0px, 0px) rotate(45deg);
+}
+
+.x2{
+    position: absolute;
+    height: 15px;
+    width: 150px;
+    background-color: red;
+    transform: translate(0px, 0px) rotate(-45deg);
+}

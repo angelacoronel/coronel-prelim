@@ -1,0 +1,319 @@
+/*printer element and logo css here*/
+
+.logo-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.logo-title{
+    font-family: 'Audiowide', cursive;
+    font-size: 30px;
+}
+.k{
+    transform: scale(-1, 1);
+}
+.right:nth-child(n):not(:last-child).logo-container{
+    margin-right: 60px;
+}
+.sqr{
+    position: absolute;
+    border: 4px solid white;
+    width: 25px;
+    height: 25px;
+}
+.line1{
+    position: absolute;
+    width: 4px;
+    height: 33px;
+    background-color: white;
+    transform: translate(13px, -4px) rotate(60deg);
+}
+.line2{
+    position: absolute;
+    width: 4px;
+    height: 25px;
+    background-color: white;
+    transform: translate(18px, 6px) rotate(-50deg);
+
+}
+.side{
+    position: absolute;
+    background-color: red;
+    width: 12.3px;
+    height: 33.5px;
+    transform: translate(33px, -2.8px) skewY(-25deg);
+}
+.top{
+    position: absolute;
+    background-color: #df5f15;
+    z-index: 2;
+    width: 32.8px;
+    height: 6px;
+    transform: translate(6.5px, -19.4px) skewX(-65deg);
+}
+
+/*printer*/
+.printer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transform: scale(2);
+}
+.l1{
+  position: relative;
+  height: 9px;
+  width: 125px;
+  background-color: #df2d15;
+  transform: translate(0px, 3 px);
+}
+.s{
+  position: relative;
+  z-index: -1;
+  height: 100px;
+  width: 100px;
+  border: 9px solid rgb(53, 53, 53);
+  transform: translate(0px, -5px);
+}
+.l2{
+  position: relative;
+  height: 5px;
+  width: 100px;
+  background-color: #524d4c;
+  transform: translate(0px, 20px);
+  animation: slidel 7s infinite;
+}
+@keyframes slidel {
+  0%,
+  100% {
+    transform: translate(0px, 20px);
+  }
+  70% {
+    transform: translate(0px, 20px);
+  }
+  60% {
+    transform: translate(0px, 36px);
+  }
+  50% {
+    transform: translate(0px, 40px);
+  }
+  45% {
+    transform: translate(0px, 44px);
+  }
+  40% {
+    transform: translate(0px, 48px);
+  }
+  35% {
+    transform: translate(0px, 52px);
+  }
+  30% {
+    transform: translate(0px, 56px);
+  }
+  25% {
+    transform: translate(0px, 60px);
+  }
+  20% {
+    transform: translate(0px, 20px);
+  }
+}
+
+/*printer head*/
+.box{
+  position: relative;
+  height: 25px;
+  width: 25px;
+  background-color: #df2d15;
+  transform: translate(40px, 5px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  animation: slide 7s infinite;
+}
+@keyframes slide {
+  0%,
+  90% {
+    transform: translate(40px, 5px);
+  }
+  80% {
+    transform: translate(40px, 5px);
+  }
+  70% {
+    transform: translate(75px, 5px);
+  }
+  60% {
+    transform: translate(0px, 21px);
+  }
+  50% {
+    transform: translate(75px, 25px);
+  }
+  45% {
+    transform: translate(0px, 29px);
+  }
+  40% {
+    transform: translate(75px, 33px);
+  }
+  35% {
+    transform: translate(0px, 37px);
+  }
+  30% {
+    transform: translate(75px, 41px);
+  }
+  25% {
+    transform: translate(0px, 45px);
+  }
+  20% {
+    transform: translate(0px, 5px);
+  }
+}
+.circle {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  background: black;
+  border-radius: 50%;
+  transform: translate(0px, 4px);
+}
+.tip{
+  position: relative;
+  width: 0;
+  height: 0;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-top: 8px solid #df2d15;
+  transform: translate(0px, 8px);
+}
+.s2{
+  position: relative;
+  height: 9px;
+  width: 75px;
+  border-top: 5px solid #524d4c;
+  border-left: 5px solid #524d4c;
+  border-right: 5px solid #524d4c;
+  transform: translate(7px, 55px);
+}
+.base{
+  position: relative;
+  border-bottom: 20px solid #df2d15;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  height: 0;
+  width: 118px;
+  transform: translate(0px, -10px);
+}
+.prod{
+  position: absolute;
+  transform: translate(0px, -25px);
+  opacity: 1;
+  animation: fade 7s infinite ease 4s;
+}
+.c1{
+  position: relative;
+  height: 6px;
+  width: 25px;
+  background-color: white;
+  transform: translate(37px, 30px);
+  opacity: 0;
+  animation: slide1 7s infinite cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.7s;
+  animation-fill-mode: both;
+}
+.c2{
+  position: relative;
+  height: 6px;
+  width: 25px;
+  background-color: white;
+  transform: translate(37px, 50px);
+  animation: slide2 7s infinite cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s;
+  opacity: 0;
+  animation-fill-mode: both;
+}
+.c3{
+  position: relative;
+  height: 6px;
+  width: 25px;
+  background-color: white;
+  transform: translate(37px, 30px);
+  opacity: 0;
+  animation: slide1 7s infinite cubic-bezier(0.250, 0.460, 0.450, 0.940) 2.4s;
+  animation-fill-mode: both;
+}
+.c4{
+  position: relative;
+  height: 6px;
+  width: 25px;
+  background-color: white;
+  transform: translate(37px, 50px);
+  animation: slide2 7s infinite cubic-bezier(0.250, 0.460, 0.450, 0.940) 2.7s;
+  opacity: 0;
+  animation-fill-mode: both;
+}
+.c5{
+  position: relative;
+  height: 6px;
+  width: 25px;
+  background-color: white;
+  transform: translate(37px, 30px);
+  opacity: 0;
+  animation: slide1 7s infinite cubic-bezier(0.250, 0.460, 0.450, 0.940) 3.1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide1 {
+  2% {
+    transform: translate(36px, 51px);
+    opacity: 0;
+  }
+  4%{
+    transform: translate(37px, 51px);
+    opacity: 1;
+  }
+  70%{
+    transform: translate(37px, 51px);
+    opacity: 1;
+  }
+  71% {
+    transform: translate(37px, 51px);
+    opacity: 0;
+  }
+}
+@keyframes slide2 {
+  2% {
+    transform: translate(40px, 51px);
+    opacity: 0;
+  }
+  4% {
+    transform: translate(37px, 51px);
+    opacity: 1;
+  }
+ 70% {
+    transform: translate(37px, 51px);
+    opacity: 1;
+  }
+  71% {
+    transform: translate(37px, 51px);
+    opacity: 0;
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  35% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 0;
+  }
+  56% {
+    opacity: 0;
+  }
+}
