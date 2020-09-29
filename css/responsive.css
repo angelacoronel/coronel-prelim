@@ -18,7 +18,7 @@
     /* For desktop: */
     .hero-bg{
         width: 100%;
-        overflow-x: hidden;
+        overflow: hidden;
     }
     
     .hero-header{
