@@ -219,7 +219,7 @@
                     <a href="#">©Kyoobik 2020</a>
                 </div>
                 <div class="socmed">
-                    <a href="https://github.com/angelacoronel/coronel_prelim/" target="blank" class="right"><div class="logo-github-small">
+                    <a href="https://github.com/angelacoronel/coronel-prelim/" target="blank" class="right"><div class="logo-github-small">
                         <div class="ear-one-left"></div>
                         <div class="ear-one-none"></div>
                         <div class="ear-one-right"></div>
