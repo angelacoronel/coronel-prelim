@@ -110,6 +110,9 @@
     .footer-container{
         justify-content: center;
     }
+    .footer-txt{
+        display: none;
+    }
     .f7{
         transform: translateX(100px);
     }
