@@ -64,7 +64,7 @@
     width: 100px;
     }
 
-.sqr1{position: relative;
+.sqr1{position: absolute;
     width: 70px;
     height: 70px;
     background: rgb(61, 61, 61);
