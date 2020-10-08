@@ -1,8 +1,8 @@
 
 @media only screen and (max-width: 1000px) {
     /* For desktop: */
-    .navlinks{
-        visibility: hidden;
+    .logo{
+        padding-left: 30px;
     }
     .content{
         position: relative;
@@ -10,15 +10,12 @@
         align-items: center  !important;
         max-width: fit-content;
     }
-    .logo{
-        position: absolute;
-    }
 }
 @media only screen and (max-width: 768px) {
     /* For desktop: */
-    .hero-bg{
+    .hero-area{
         width: 100%;
-        overflow: hidden;
+        overflow-x: hidden;
     }
     
     .hero-header{
@@ -26,12 +23,6 @@
     }
     .hero-desc{
         max-width: 100vw;
-    }
-    .hero-area .learn-btn{
-        width: 40vw;
-    }
-    .hero-area .learn-btn:hover{
-        width: 41vw;
     }
     .section2{
         position: relative;
@@ -83,12 +74,6 @@
         justify-content: center;
     }
 
-    .section3 .learn-btn {
-        width: 40vw;     
-    }
-    .section3 .learn-btn:hover{
-        width: 41vw;
-    }
     .s5-container{
         min-height: 120vh;
         max-height: 150vh;
@@ -97,23 +82,20 @@
     .section5-header{
         text-align: center;
     }
-    .section5 .btn{
-        width: 40vw;
-        height: 8vh;
-        margin-bottom: 10vh;
-    }
-    .section5 .btn:hover{
-        width: 41vw;
-    }
     .footer-bg{
         overflow-x: hidden;
-    }
-    .footer-container{
-        justify-content: center;
     }
     .footer-txt{
         display: none;
     }
+    .footer-container{
+        justify-content: center;
+    }
+    .sqr1{
+        width: 70px;
+        height: 70px;
+    }
+       
     .f2{
         transform: translate(-170px, 20px);
     }
