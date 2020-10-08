@@ -15,7 +15,16 @@
         <!--nav-->
         <nav>
             <div class="parent black row center">
+                <div class="header-anim">
+                    <div class="hline1"></div>
+                    <div class="hline2"></div>
+                    <div class="hline3"></div>
+                    <div class="hline4"></div>
+                    <div class="hline5"></div>
+                    <div class="hline6"></div>
+                </div>    
                 <div class="content row stretch space-between">
+                
                     <!--logo-->
                     <div class=" logo row ycenter pull-left space-between">
                         <div class="logo-container right">
@@ -26,19 +35,11 @@
                             <div class="line2"></div>
                         </div>
                         <div class="logo-title row">KYOOBI<div class="k">K</div> </div>
-                    </div>
+                    </div> 
+                            
+
                     <!--nav links and search bar-->
-                    <div class="navlinks row ycenter pull-left space-between">
-                        <div class="right"><a href="#">Home</a></div>
-                        <div class="right"><a href="#">About Us</a></div>
-                        <div class="right"><a href="#">Services</a></div>
-                        <div class="right"><a href="#">Contact Us</a></div>
-                        <div class="right search-ctr">
-                            <input type="text" class="search" placeholder="Search here...">
-                                <button type="submit"><i class="fa fa-search"></i></button>
-                            </input>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </nav>
@@ -69,9 +70,6 @@
                         legendos at vix ad putent delectus delicata usu.
                         Vidit dissentiet eos cu eum an brute copiosae hendrerit. delicata usu.
                         Vidit dissentiet eos cu eum an brute copiosae hendrerit.                        
-                    </div>
-                    <div class="learn-btn">
-                        Learn More
                     </div>
                 </div>
             </div>          
@@ -168,9 +166,6 @@
                     <div class="section3-sub">
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. 
                     </div>
-                    <div class="learn-btn">
-                        Learn More
-                    </div>
                 </div>
             </div>             
         </div>
@@ -195,7 +190,6 @@
                         </li>
                     </ul>
                 </div>
-                <div class="btn">Inquire now</div>
             </div>          
         </div>
          <!--section5-->
@@ -216,10 +210,10 @@
             </div>
             <div class="footer-container row stretch space-between">
                 <div class="footer-txt">
-                    <a href="#">©Kyoobik 2020</a>
+                    ©Kyoobik 2020
                 </div>
                 <div class="socmed">
-                    <a href="https://github.com/angelacoronel/coronel-prelim/" target="blank" class="right"><div class="logo-github-small">
+                    <a href="https://github.com/angelacoronel/coronel_prelim/" target="blank" class="right"><div class="logo-github-small">
                         <div class="ear-one-left"></div>
                         <div class="ear-one-none"></div>
                         <div class="ear-one-right"></div>
