@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2;
+    background-color: #141414;
     height: fit-content;
   }
 
@@ -23,9 +23,6 @@ nav{
 
 .parent{
     padding: 8px 0;
-}
-.black{
-    background-color:#141414;
 }
 .row{
     flex-direction: row;
@@ -48,9 +45,8 @@ nav{
 }
 .content{
     padding: 10px 0;
-    max-width: 1200px;
+    max-width: 90vw;
     color: #E7EAEF;
-    overflow: hidden;
 }
 .pull-right{
     justify-content: flex-end;
@@ -67,46 +63,10 @@ nav{
 .right a{
     position: relative;
 }
-.navlinks a{
-    transition: all 0.2s ease-in-out;
-}
-.navlinks a:hover{
-    color: #f85b00;
-}
-.right a:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: white;
-  visibility: hidden;
-  transform: scaleX(0);
-  transition: all 0.3s ease-in-out;
-}
 .right a:hover:before {
     visibility: visible;
     transform: scaleX(1);
   }
-.search-ctr{
-    position: relative;
-    display: flex;
-    align-items: center;
-}
-.search {
-    width: 10vw;
-    height: 6vh;
-    border-radius: 5px;
-    color: #202020;
-    font-size: 16px;
-    font-family: sans-serif;
-    transition: all 0.30s ease-in-out;
-    outline: none;
-    padding: 3px 3px 5px 10px;
-    margin: 5px 3px 5px 10px;
-    border: 1px solid #DDDDDD;
-}
 .right button[type=submit]{
     cursor: pointer;
     height: 6vh;
@@ -114,16 +74,10 @@ nav{
     border-radius: 5px;
     color: #f85b00;
     background-color: rgb(73, 73, 73);
-    transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out 0.3s;
 }
-.right button[type=submit]:hover{
-    color: white;
-    background-color: #313131;
-}
-input[type=text]:focus {
-    width: 20vw;
-    box-shadow: 0 0 5px #f85b00;
-    border: 2px solid  #f85b00;
+.logo{
+    padding: 3px;
 }
 /*hero area properties*/
 
@@ -139,9 +93,6 @@ input[type=text]:focus {
     overflow: hidden;
  /*border: 1px solid red;*/
 }
-.hero-header .logo-title{
-    font-size: 50px;
-} 
 .hero-desc{
     text-align: center;
     display: flex;
@@ -165,53 +116,6 @@ input[type=text]:focus {
     width: fit-content;
     text-align: justify;
 }
-
-.hero-area .learn-btn{
-    margin-top: 8vh;
-    color: #000;
-    display: flex;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    border-radius: 5px;
-    width: 10vw;
-    height: 7vh;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    border: 3px solid #f85b00;
-    font-family: 'Poppins', sans-serif;
-    transition: all 0.30s ease-in-out;
-}
-.hero-area .learn-btn:hover{
-    background-color: #f85b00;
-    color: #fff;
-    box-shadow: 0px 10px 10px 5px #6e4836;
-    width: 11vw;
-}
-.section3 .learn-btn {
-    margin-top: 8vh;
-    color: #000;
-    display: flex;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    border-radius: 5px;
-    width: 10vw;
-    height: 7vh;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    border: 3px solid #000;
-    font-family: 'Poppins', sans-serif;
-    transition: all 0.30s ease-in-out;
-}
-.section3 .learn-btn:hover{
-    background-color: #df5f15;
-    border: 3px solid #df5f15;
-    color: #fff;
-    box-shadow: 0px 10px 10px 5px #5e5c5c;
-    width: 11vw;
-}
-
 
 
 /*section2 properties*/
@@ -332,29 +236,6 @@ background: linear-gradient(180deg, #c2bfbf 0%, #2967c4 17%);
     font-size: 20px;
     color: rgb(0, 0, 0);
 }
-.section5 .btn{
-    margin-top: 5vh;
-    display: flex;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    border-radius: 5px;
-    width: 10vw;
-    height: 8vh;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    border: 3px solid white;
-    color: #FFF;
-    font-family: 'Poppins', sans-serif;
-    transition: all 0.30s ease-in-out;
-}
-.section5 .btn:hover{
-    background-color: #e97b3c;
-    border: 3px solid #e97b3c;
-    color: white;
-    box-shadow: 0px 10px 10px 5px #112d57;
-    width: 11vw;
-}
 
 
 /*footer properties*/
@@ -379,6 +260,7 @@ background: linear-gradient(180deg, #c2bfbf 0%, #2967c4 17%);
     align-items: center;
     max-width: 1100px;
 }
+
 .socmed{
     font-size: 16px;
     display: flex;
