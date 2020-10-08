@@ -1,6 +1,9 @@
 
 @media only screen and (max-width: 1000px) {
     /* For desktop: */
+    body{
+        overflow-x: hidden;
+    }
     .logo{
         padding-left: 30px;
     }
