@@ -1,3 +1,126 @@
+/*header*/
+.header-anim{
+    position: absolute;
+    overflow: hidden;
+    width: 98vw;
+    height: 10vh;
+    display: flex;
+    z-index: -10;
+    background-color:#141414;
+}
+.hline1{
+    opacity: 0;
+    position: relative;
+    width: 300px;
+    height: 5px;
+    background-color: rgba(167, 167, 167, 0.185);
+    transform: translate(13px, 10px);
+    animation: h1 5s ease-in-out infinite 1s;
+}
+.hline2{
+    opacity: 0;
+    position: relative;
+    width: 500px;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0.158);
+    transform: translate(100px, 30px);
+    animation: h2 4s ease-in-out infinite 0s;
+}
+.hline3{
+    opacity: 0;
+    position: relative;
+    width: 300px;
+    height: 5px;
+    background-color: rgba(117, 117, 117, 0.459);
+    transform: translate(500px, 50px);
+    animation: h3 3s ease-in-out infinite 1.5s;
+}
+.hline4{
+    opacity: 0;
+    position: relative;
+    width: 200px;
+    height: 5px;
+    background-color: rgba(167, 167, 167, 0.212);
+    transform: translate(700px, 30px);
+    animation: h2 4s ease-in-out infinite 1s;
+}
+.hline5{
+    opacity: 0;
+    position: relative;
+    width: 300px;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0.185);
+    transform: translate(1000px, 10px);
+    animation: h1 5s ease-in-out infinite 0.5s;
+}
+.hline6{
+    opacity: 0;
+    position: relative;
+    width: 500px;
+    height: 5px;
+    background-color: rgba(117, 117, 117, 0.459);
+    transform: translate(500px, 50px);
+    animation: h3 3s ease-in-out infinite 1s;
+}
+@keyframes h1 {
+    0%{
+        opacity: 0;
+        transform: translate(-1000px, 10px);
+    }
+    5%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translate(1500px, 10px);
+    }
+}
+@keyframes h2 {
+    0%{
+        opacity: 0;
+        transform: translate(-1000px, 30px);
+    }
+    30%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    80%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+        transform: translate(1500px, 30px);
+    }
+}
+@keyframes h3 {
+    0%{
+        opacity: 0;
+        transform: translate(-1000px, 50px);
+    }
+    20%{
+        opacity: 1;
+    }
+    30%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+        transform: translate(1500px, 50px);
+    }
+}
+
+/*hero*/
 .hero-bg{
     position: absolute;
     width: 100vw;
